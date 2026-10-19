@@ -1,0 +1,301 @@
+{
+  "schema": "msfs2024-runway-facilities/v1",
+  "airports": {
+    "EDDM": {
+      "runways": [
+        {
+          "unique_id": 1,
+          "latitude_deg": 48.3648305386305,
+          "longitude_deg": 11.7943020164967,
+          "altitude_m": 443.565032958984,
+          "heading_deg": 83.4176177978516,
+          "length_m": 4000,
+          "width_m": 60,
+          "slope_deg": 0.000587396207265556,
+          "true_slope_deg": 0.000587396207265556,
+          "primary_number": 8,
+          "primary_designator": 1,
+          "secondary_number": 26,
+          "secondary_designator": 2,
+          "primary_threshold": {
+            "length_m": 0,
+            "width_m": 0,
+            "enabled": false
+          },
+          "secondary_threshold": {
+            "length_m": 0,
+            "width_m": 0,
+            "enabled": false
+          }
+        },
+        {
+          "unique_id": 4,
+          "latitude_deg": 48.3427224308252,
+          "longitude_deg": 11.7778189480305,
+          "altitude_m": 444.118011474609,
+          "heading_deg": 263.433380126953,
+          "length_m": 4000.00268554688,
+          "width_m": 76.1846466064453,
+          "slope_deg": 0.0283930953592062,
+          "true_slope_deg": 0.0283930953592062,
+          "primary_number": 26,
+          "primary_designator": 1,
+          "secondary_number": 8,
+          "secondary_designator": 2,
+          "primary_threshold": {
+            "length_m": 0,
+            "width_m": 0,
+            "enabled": false
+          },
+          "secondary_threshold": {
+            "length_m": 0,
+            "width_m": 0,
+            "enabled": false
+          }
+        }
+      ]
+    },
+    "EDDS": {
+      "runways": [
+        {
+          "unique_id": 1,
+          "latitude_deg": 48.690251223743,
+          "longitude_deg": 9.2239236831665,
+          "altitude_m": 384.217010498047,
+          "heading_deg": 74.0255966186523,
+          "length_m": 3044.6748046875,
+          "width_m": 50,
+          "slope_deg": 0,
+          "true_slope_deg": 0,
+          "primary_number": 7,
+          "primary_designator": 0,
+          "secondary_number": 25,
+          "secondary_designator": 0,
+          "primary_threshold": {
+            "length_m": 0,
+            "width_m": 0,
+            "enabled": false
+          },
+          "secondary_threshold": {
+            "length_m": 0,
+            "width_m": 0,
+            "enabled": false
+          }
+        }
+      ]
+    },
+    "LFQQ": {
+      "runways": [
+        {
+          "unique_id": 1,
+          "latitude_deg": 50.5669781193137,
+          "longitude_deg": 3.08830752968788,
+          "altitude_m": 47.5870018005371,
+          "heading_deg": 194.801727294922,
+          "length_m": 1573.34033203125,
+          "width_m": 30,
+          "slope_deg": 0.0496759638190269,
+          "true_slope_deg": -0.0496759638190269,
+          "primary_number": 20,
+          "primary_designator": 0,
+          "secondary_number": 2,
+          "secondary_designator": 0,
+          "primary_threshold": {
+            "length_m": 0,
+            "width_m": 0,
+            "enabled": false
+          },
+          "secondary_threshold": {
+            "length_m": 0,
+            "width_m": 0,
+            "enabled": false
+          }
+        },
+        {
+          "unique_id": 4,
+          "latitude_deg": 50.5656836181879,
+          "longitude_deg": 3.10268372297287,
+          "altitude_m": 47.5870018005371,
+          "heading_deg": 257.399383544922,
+          "length_m": 2851.78662109375,
+          "width_m": 45,
+          "slope_deg": 0.0232021510601044,
+          "true_slope_deg": -0.0232021510601044,
+          "primary_number": 26,
+          "primary_designator": 0,
+          "secondary_number": 8,
+          "secondary_designator": 0,
+          "primary_threshold": {
+            "length_m": 306.490936279297,
+            "width_m": 43.8944396972656,
+            "enabled": true
+          },
+          "secondary_threshold": {
+            "length_m": 0,
+            "width_m": 0,
+            "enabled": false
+          }
+        }
+      ]
+    },
+    "LIRF": {
+      "runways": [
+        {
+          "unique_id": 1,
+          "latitude_deg": 41.8292051553726,
+          "longitude_deg": 12.2685192525387,
+          "altitude_m": 1.41800010204315,
+          "heading_deg": 162.608993530273,
+          "length_m": 3891.0869140625,
+          "width_m": 60.7411308288574,
+          "slope_deg": 0.012608528137207,
+          "true_slope_deg": -0.012608528137207,
+          "primary_number": 16,
+          "primary_designator": 1,
+          "secondary_number": 34,
+          "secondary_designator": 2,
+          "primary_threshold": {
+            "length_m": 0,
+            "width_m": 0,
+            "enabled": false
+          },
+          "secondary_threshold": {
+            "length_m": 0,
+            "width_m": 0,
+            "enabled": false
+          }
+        },
+        {
+          "unique_id": 4,
+          "latitude_deg": 41.7987463250756,
+          "longitude_deg": 12.2334037721157,
+          "altitude_m": 1.41800010204315,
+          "heading_deg": 162.640960693359,
+          "length_m": 3903.58081054688,
+          "width_m": 62.4564552307129,
+          "slope_deg": 0.0125675471499562,
+          "true_slope_deg": 0.0125675471499562,
+          "primary_number": 16,
+          "primary_designator": 2,
+          "secondary_number": 34,
+          "secondary_designator": 1,
+          "primary_threshold": {
+            "length_m": 0,
+            "width_m": 0,
+            "enabled": false
+          },
+          "secondary_threshold": {
+            "length_m": 0,
+            "width_m": 0,
+            "enabled": false
+          }
+        },
+        {
+          "unique_id": 7,
+          "latitude_deg": 41.8046555668116,
+          "longitude_deg": 12.2514671087265,
+          "altitude_m": 1.41800010204315,
+          "heading_deg": 249.707321166992,
+          "length_m": 3180.5771484375,
+          "width_m": 50.0582809448242,
+          "slope_deg": 0.00732879247516394,
+          "true_slope_deg": 0.00732879247516394,
+          "primary_number": 25,
+          "primary_designator": 0,
+          "secondary_number": 7,
+          "secondary_designator": 0,
+          "primary_threshold": {
+            "length_m": 0,
+            "width_m": 0,
+            "enabled": false
+          },
+          "secondary_threshold": {
+            "length_m": 293.586242675781,
+            "width_m": 44.7402191162109,
+            "enabled": true
+          }
+        }
+      ]
+    },
+    "LSZH": {
+      "runways": [
+        {
+          "unique_id": 1,
+          "latitude_deg": 47.4577738344669,
+          "longitude_deg": 8.55393782258034,
+          "altitude_m": 422.9990234375,
+          "heading_deg": 95.9628601074219,
+          "length_m": 2516.892578125,
+          "width_m": 60,
+          "slope_deg": 6.83018879499286e-06,
+          "true_slope_deg": 6.83018879499286e-06,
+          "primary_number": 10,
+          "primary_designator": 0,
+          "secondary_number": 28,
+          "secondary_designator": 0,
+          "primary_threshold": {
+            "length_m": 0,
+            "width_m": 0,
+            "enabled": false
+          },
+          "secondary_threshold": {
+            "length_m": 0,
+            "width_m": 0,
+            "enabled": false
+          }
+        },
+        {
+          "unique_id": 4,
+          "latitude_deg": 47.4721920490265,
+          "longitude_deg": 8.54957297444344,
+          "altitude_m": 423.000030517578,
+          "heading_deg": 137.190017700195,
+          "length_m": 3303.29760742188,
+          "width_m": 60,
+          "slope_deg": 6.83018879499286e-06,
+          "true_slope_deg": 6.83018879499286e-06,
+          "primary_number": 14,
+          "primary_designator": 0,
+          "secondary_number": 32,
+          "secondary_designator": 0,
+          "primary_threshold": {
+            "length_m": 155.649993896484,
+            "width_m": 60,
+            "enabled": true
+          },
+          "secondary_threshold": {
+            "length_m": 0,
+            "width_m": 0,
+            "enabled": false
+          }
+        },
+        {
+          "unique_id": 7,
+          "latitude_deg": 47.4606391042471,
+          "longitude_deg": 8.5463185608387,
+          "altitude_m": 422.9990234375,
+          "heading_deg": 154.961318969727,
+          "length_m": 3716.0224609375,
+          "width_m": 60,
+          "slope_deg": 6.83018879499286e-06,
+          "true_slope_deg": 6.83018879499286e-06,
+          "primary_number": 16,
+          "primary_designator": 0,
+          "secondary_number": 34,
+          "secondary_designator": 0,
+          "primary_threshold": {
+            "length_m": 0,
+            "width_m": 0,
+            "enabled": false
+          },
+          "secondary_threshold": {
+            "length_m": 466,
+            "width_m": 60,
+            "enabled": true
+          }
+        }
+      ]
+    }
+  },
+  "source": "MSFS 2024 capture Facilities API snapshot"
+}

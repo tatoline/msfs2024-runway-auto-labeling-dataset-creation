@@ -1,0 +1,34 @@
+{
+  "scenario_id": "AutoScenario_4940",
+  "corner_order": [
+    "threshold_right",
+    "threshold_left",
+    "far_left",
+    "far_right"
+  ],
+  "corners_px": [
+    [
+      982.0122590486285,
+      646.6706667693563
+    ],
+    [
+      937.4340833278222,
+      646.6650139053078
+    ],
+    [
+      1026.1114808575114,
+      591.0916291338424
+    ],
+    [
+      1047.304484028628,
+      591.1229479878047
+    ]
+  ],
+  "bbox_xyxy_px": [
+    937.4340833278222,
+    591.0916291338424,
+    1047.304484028628,
+    646.6706667693563
+  ],
+  "source": "MSFS 2024 Camera API pose + explicit FOV axis + manual_reference_fit_world_corners+human_review_pixel_residual_v1; see label_report validation status"
+}

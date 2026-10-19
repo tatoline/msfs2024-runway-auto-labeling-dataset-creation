@@ -1,0 +1,134 @@
+{
+  "schema": "msfs2024-camera-capture/v3",
+  "scenario_id": "AutoScenario_3932",
+  "image_file": "images/AutoScenario_3932.png",
+  "image_size": [
+    1920,
+    1080
+  ],
+  "image_sha256": "a8629380ec64797e0dafaec2f080731fbdf061dd56351f5e54ac9b01dafb3264",
+  "camera_fov_convention": "vertical_validated_by_16_9_pilot",
+  "commanded_target_world": {
+    "latitude_deg": 50.55652948429605,
+    "longitude_deg": 3.0187530809661465,
+    "altitude_m": 173.675167688169
+  },
+  "before": {
+    "native_utc": "2026-09-03T08:24:11.451Z",
+    "native_steady_ns": 15889215958300,
+    "status": {
+      "acquired_state": 1,
+      "game_controlled": false
+    },
+    "camera_world": {
+      "latitude_deg": 50.5723613167674,
+      "longitude_deg": 3.15798997288195,
+      "altitude_raw": 173.675167688169,
+      "altitude_raw_unit": "metres",
+      "altitude_m": 173.675167688169,
+      "pitch_deg": 0.0,
+      "bank_deg": 0.0,
+      "heading_true_deg": 259.8664999999996,
+      "raw_pbh_deg": {
+        "pitch": 0.0479246489703655,
+        "bank": -100.067886352539,
+        "heading": 0.0182235930114985
+      },
+      "raw_target_returned_by_api": {
+        "latitude_deg": 0,
+        "longitude_deg": 0,
+        "altitude_raw": 0
+      },
+      "target_world": {
+        "latitude_deg": 50.55652948429605,
+        "longitude_deg": 3.0187530809661465,
+        "altitude_m": 173.675167688169
+      },
+      "orientation_source": "commanded_world_target",
+      "fov_deg": 28.554999183828965,
+      "fov_axis": "vertical",
+      "horizontal_fov_deg_assumed": 28.554999183828965,
+      "fov_rad_raw": 0.498378753662109
+    },
+    "aircraft": {
+      "latitude_deg": 50.57238223,
+      "longitude_deg": 3.15814192,
+      "altitude_ft": 566.65,
+      "altitude_m": 172.71492,
+      "pitch_deg": 0.0,
+      "bank_deg": 0.0,
+      "heading_true_deg": 259.8665
+    }
+  },
+  "after": {
+    "native_utc": "2026-09-03T08:24:11.872Z",
+    "native_steady_ns": 15889636806400,
+    "status": {
+      "acquired_state": 1,
+      "game_controlled": false
+    },
+    "camera_world": {
+      "latitude_deg": 50.5723613167674,
+      "longitude_deg": 3.15798997288195,
+      "altitude_raw": 173.675167688169,
+      "altitude_raw_unit": "metres",
+      "altitude_m": 173.675167688169,
+      "pitch_deg": 0.0,
+      "bank_deg": 0.0,
+      "heading_true_deg": 259.8664999999996,
+      "raw_pbh_deg": {
+        "pitch": 0.0590893849730492,
+        "bank": -100.067886352539,
+        "heading": 0.0391753129661083
+      },
+      "raw_target_returned_by_api": {
+        "latitude_deg": 0,
+        "longitude_deg": 0,
+        "altitude_raw": 0
+      },
+      "target_world": {
+        "latitude_deg": 50.55652948429605,
+        "longitude_deg": 3.0187530809661465,
+        "altitude_m": 173.675167688169
+      },
+      "orientation_source": "commanded_world_target",
+      "fov_deg": 28.554999183828965,
+      "fov_axis": "vertical",
+      "horizontal_fov_deg_assumed": 28.554999183828965,
+      "fov_rad_raw": 0.498378753662109
+    },
+    "aircraft": {
+      "latitude_deg": 50.57238223,
+      "longitude_deg": 3.15814192,
+      "altitude_ft": 566.65,
+      "altitude_m": 172.71492,
+      "pitch_deg": 0.0,
+      "bank_deg": 0.0,
+      "heading_true_deg": 259.8665
+    }
+  },
+  "camera_drift_during_capture": {
+    "position_m": 0.0,
+    "max_angle_deg": 0.02095171995460987,
+    "limits": {
+      "position_m": 0.25,
+      "angle_deg": 0.05
+    }
+  },
+  "capture_geometry": {
+    "source_monitor_index": 1,
+    "source_size_px": [
+      3840,
+      2160
+    ],
+    "output_size_px": [
+      1920,
+      1080
+    ],
+    "resize_scale_xy": [
+      0.5,
+      0.5
+    ],
+    "full_primary_monitor": true
+  }
+}

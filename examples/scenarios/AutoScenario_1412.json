@@ -1,0 +1,102 @@
+{
+  "schema_version": "odme-msfs-1.0",
+  "images": [
+    {
+      "file_name": "AutoScenario_1412.png",
+      "id": "AutoScenario_1412.png",
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "annotations": [],
+  "categories": [
+    {
+      "id": 1,
+      "name": "runway",
+      "supercategory": "infrastructure"
+    }
+  ],
+  "runway_data": {
+    "name": "Rome Fiumicino",
+    "icao_code": "LIRF",
+    "runway_name": "16L",
+    "runway_width_m": 60.0,
+    "runway_length_m": 3901.46,
+    "runway_heading_true_deg": 159.0,
+    "runway_center": {
+      "latitude": 41.82925021,
+      "longitude": 12.26850183,
+      "altitude_msl_m": 3.05
+    }
+  },
+  "geometry": {
+    "horizontal_datum": "WGS-84",
+    "vertical_datum": "MSL metres",
+    "landing_threshold": {
+      "latitude": 41.846,
+      "longitude": 12.2615,
+      "altitude_msl_m": 4.27
+    },
+    "opposite_threshold": {
+      "latitude": 41.8125,
+      "longitude": 12.2755,
+      "altitude_msl_m": 1.83
+    },
+    "aim_point": {
+      "latitude": 41.84474061,
+      "longitude": 12.26214894,
+      "altitude_msl_m": 4.176
+    },
+    "aim_point_inside_threshold_m": 150.0,
+    "landing_course_true_deg": 159.0,
+    "approach_bearing_true_deg": 339.0,
+    "runway_center_to_aim_point_m": 1801.068,
+    "source": "SkyVector LIRF runway 16L/34R listing, accessed 2026-08-06; MSFS alignment required"
+  },
+  "landing_approach_cone": {
+    "reference_point": "geometry.aim_point",
+    "lateral_angle_left_deg": -4.0,
+    "lateral_angle_right_deg": 4.0,
+    "vertical_min_angle_deg": 2.2,
+    "vertical_max_angle_deg": 3.8,
+    "max_distance_m": 5560.0,
+    "number_of_points": 15,
+    "distribution": {
+      "type": "Normal Distribution",
+      "apply_x": true,
+      "apply_y": true
+    }
+  },
+  "position_of_aircraft": {
+    "latitude": 41.87037299,
+    "longitude": 12.25026072,
+    "altitude_msl_m": 180.636
+  },
+  "distance_aircraft_to_aim_point": {
+    "ground_distance_m": 3015.453,
+    "altitude_difference_m": 176.46
+  },
+  "aircraft_orientation": {
+    "yaw_true_deg": 160.939127,
+    "pitch_deg": -3.349051,
+    "roll_deg": 0.0
+  },
+  "daytime": {
+    "hours": 12,
+    "minutes": 0
+  },
+  "weather": "Broken Clouds",
+  "source_odme_variables": {
+    "OperationMode": "ILSLanding",
+    "DistanceToRunwayKm": "3.015453074305422",
+    "VerticalAngleDeg": "3.3490514486799325",
+    "LateralDeviationDeg": "1.9470598652173798",
+    "Azimuth": "aligned",
+    "PitchDeg": "0.0",
+    "RollDeg": "0.0",
+    "StartOffsetBeforeSunriseH": "1.0",
+    "EndOffsetAfterSunsetH": "1.0",
+    "TimeStepMinutes": "30",
+    "TimeOfYear": "EarlySpring"
+  }
+}

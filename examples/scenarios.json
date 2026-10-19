@@ -1,0 +1,217 @@
+[
+  {
+    "sid": "AutoScenario_3207",
+    "icao": "EDDM",
+    "airport": "Munich",
+    "runway": "26R",
+    "weather": "Broken Clouds",
+    "hour": 12,
+    "minute": 0,
+    "gd": 2995.05,
+    "ad": 144.14,
+    "lat": 48.36964274,
+    "lon": 11.85946268,
+    "alt_m": 586.01,
+    "alt_ft": 1922.61,
+    "heading_true": 263.8112,
+    "glide_angle_deg": 2.7554,
+    "roll": 0.0,
+    "runway_length_m": 3987.909,
+    "runway_width_m": 60.0,
+    "landing_course_true_deg": 263.4,
+    "corners": [
+      [
+        48.36715517,
+        11.82112648,
+        441.66
+      ],
+      [
+        48.36661883,
+        11.82121952,
+        441.66
+      ],
+      [
+        48.36249883,
+        11.76759596,
+        447.14
+      ],
+      [
+        48.36303517,
+        11.76750292,
+        447.14
+      ]
+    ]
+  },
+  {
+    "sid": "AutoScenario_4432",
+    "icao": "EDDS",
+    "airport": "Stuttgart",
+    "runway": "25",
+    "weather": "Broken Clouds",
+    "hour": 12,
+    "minute": 0,
+    "gd": 2991.16,
+    "ad": 149.28,
+    "lat": 48.6998742,
+    "lon": 9.28151004,
+    "alt_m": 538.276,
+    "alt_ft": 1766.0,
+    "heading_true": 256.5886,
+    "glide_angle_deg": 2.857,
+    "roll": 0.0,
+    "runway_length_m": 3345.0,
+    "runway_width_m": 45.0,
+    "landing_course_true_deg": 254.0,
+    "corners": [
+      [
+        48.69419463,
+        9.24374898,
+        389.0
+      ],
+      [
+        48.69380537,
+        9.24391768,
+        389.0
+      ],
+      [
+        48.68550526,
+        9.20011664,
+        389.0
+      ],
+      [
+        48.68589452,
+        9.19994794,
+        389.0
+      ]
+    ]
+  },
+  {
+    "sid": "AutoScenario_3932",
+    "icao": "LFQQ",
+    "airport": "Lille",
+    "runway": "26",
+    "weather": "Broken Clouds",
+    "hour": 12,
+    "minute": 0,
+    "gd": 3018.15,
+    "ad": 132.1,
+    "lat": 50.57238223,
+    "lon": 3.15814192,
+    "alt_m": 172.715,
+    "alt_ft": 566.65,
+    "heading_true": 259.8665,
+    "glide_angle_deg": 2.5061,
+    "roll": 0.0,
+    "runway_length_m": 2825.0,
+    "runway_width_m": 45.0,
+    "landing_course_true_deg": 260.0,
+    "corners": [
+      [
+        50.56803272,
+        3.11811142,
+        40.23
+      ],
+      [
+        50.56763394,
+        3.11822192,
+        40.23
+      ],
+      [
+        50.56321562,
+        3.07883444,
+        47.55
+      ],
+      [
+        50.5636144,
+        3.07872394,
+        47.55
+      ]
+    ]
+  },
+  {
+    "sid": "AutoScenario_1412",
+    "icao": "LIRF",
+    "airport": "Rome Fiumicino",
+    "runway": "16L",
+    "weather": "Broken Clouds",
+    "hour": 12,
+    "minute": 0,
+    "gd": 3015.45,
+    "ad": 176.46,
+    "lat": 41.87037299,
+    "lon": 12.25026072,
+    "alt_m": 180.636,
+    "alt_ft": 592.64,
+    "heading_true": 160.9391,
+    "glide_angle_deg": 3.3491,
+    "roll": 0.0,
+    "runway_length_m": 3901.46,
+    "runway_width_m": 60.0,
+    "landing_course_true_deg": 159.0,
+    "corners": [
+      [
+        41.84591962,
+        12.26115474,
+        4.27
+      ],
+      [
+        41.84608038,
+        12.26184526,
+        4.27
+      ],
+      [
+        41.81258038,
+        12.27584526,
+        1.83
+      ],
+      [
+        41.81241962,
+        12.27515474,
+        1.83
+      ]
+    ]
+  },
+  {
+    "sid": "AutoScenario_4940",
+    "icao": "LSZH",
+    "airport": "Zurich",
+    "runway": "14",
+    "weather": "Broken Clouds",
+    "hour": 12,
+    "minute": 0,
+    "gd": 2968.05,
+    "ad": 137.38,
+    "lat": 47.49954207,
+    "lon": 8.50869603,
+    "alt_m": 564.709,
+    "alt_ft": 1852.72,
+    "heading_true": 133.3083,
+    "glide_angle_deg": 2.6501,
+    "roll": 0.0,
+    "runway_length_m": 3155.186,
+    "runway_width_m": 60.0,
+    "landing_course_true_deg": 134.0,
+    "corners": [
+      [
+        47.48198323,
+        8.53570751,
+        427.33
+      ],
+      [
+        47.48235011,
+        8.53629249,
+        427.33
+      ],
+      [
+        47.46151677,
+        8.56479249,
+        427.33
+      ],
+      [
+        47.46114989,
+        8.56420751,
+        427.33
+      ]
+    ]
+  }
+]

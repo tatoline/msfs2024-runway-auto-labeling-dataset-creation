@@ -1,0 +1,102 @@
+{
+  "schema_version": "odme-msfs-1.0",
+  "images": [
+    {
+      "file_name": "AutoScenario_3207.png",
+      "id": "AutoScenario_3207.png",
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "annotations": [],
+  "categories": [
+    {
+      "id": 1,
+      "name": "runway",
+      "supercategory": "infrastructure"
+    }
+  ],
+  "runway_data": {
+    "name": "Munich",
+    "icao_code": "EDDM",
+    "runway_name": "26R",
+    "runway_width_m": 60.0,
+    "runway_length_m": 3987.909,
+    "runway_heading_true_deg": 263.4,
+    "runway_center": {
+      "latitude": 48.36483012,
+      "longitude": 11.79436014,
+      "altitude_msl_m": 444.4
+    }
+  },
+  "geometry": {
+    "horizontal_datum": "WGS-84",
+    "vertical_datum": "MSL metres",
+    "landing_threshold": {
+      "latitude": 48.366887,
+      "longitude": 11.821173,
+      "altitude_msl_m": 441.66
+    },
+    "opposite_threshold": {
+      "latitude": 48.362767,
+      "longitude": 11.76754944,
+      "altitude_msl_m": 447.14
+    },
+    "aim_point": {
+      "latitude": 48.36673193,
+      "longitude": 11.81915596,
+      "altitude_msl_m": 441.866
+    },
+    "aim_point_inside_threshold_m": 150.0,
+    "landing_course_true_deg": 263.4,
+    "approach_bearing_true_deg": 83.39999999999998,
+    "runway_center_to_aim_point_m": 1843.955,
+    "source": "EDDM AIP aerodrome chart (AMDT 02/19) true bearings and threshold coordinates; MSFS alignment required"
+  },
+  "landing_approach_cone": {
+    "reference_point": "geometry.aim_point",
+    "lateral_angle_left_deg": -4.0,
+    "lateral_angle_right_deg": 4.0,
+    "vertical_min_angle_deg": 2.2,
+    "vertical_max_angle_deg": 3.8,
+    "max_distance_m": 5560.0,
+    "number_of_points": 15,
+    "distribution": {
+      "type": "Normal Distribution",
+      "apply_x": true,
+      "apply_y": true
+    }
+  },
+  "position_of_aircraft": {
+    "latitude": 48.36964274,
+    "longitude": 11.85946268,
+    "altitude_msl_m": 586.01
+  },
+  "distance_aircraft_to_aim_point": {
+    "ground_distance_m": 2995.054,
+    "altitude_difference_m": 144.144
+  },
+  "aircraft_orientation": {
+    "yaw_true_deg": 263.811165,
+    "pitch_deg": -2.755365,
+    "roll_deg": 0.0
+  },
+  "daytime": {
+    "hours": 12,
+    "minutes": 0
+  },
+  "weather": "Broken Clouds",
+  "source_odme_variables": {
+    "OperationMode": "ILSLanding",
+    "DistanceToRunwayKm": "2.9950535314864988",
+    "VerticalAngleDeg": "2.7553649188618916",
+    "LateralDeviationDeg": "0.3810384892018934",
+    "Azimuth": "aligned",
+    "PitchDeg": "0.0",
+    "RollDeg": "0.0",
+    "StartOffsetBeforeSunriseH": "1.0",
+    "EndOffsetAfterSunsetH": "1.0",
+    "TimeStepMinutes": "30",
+    "TimeOfYear": "EarlySpring"
+  }
+}

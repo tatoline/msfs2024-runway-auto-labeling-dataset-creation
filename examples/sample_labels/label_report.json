@@ -1,0 +1,394 @@
+{
+  "status": "CAMERA_API_PROJECTED_CANDIDATES_NOT_GROUND_TRUTH",
+  "dataset": "examples/sample_capture",
+  "manifest_sha256": "619165fc28d7681078a1608c0a61314937c2639ffb76494d9903d613e204eaa1",
+  "projection": "WGS84 ECEF to local ENU; per-frame Camera API pose and FOV; pinhole camera",
+  "fov_convention": "vertical",
+  "corner_order": [
+    "threshold_right",
+    "threshold_left",
+    "far_left",
+    "far_right"
+  ],
+  "images": [
+    {
+      "scenario_id": "AutoScenario_3207",
+      "status": "candidate",
+      "image_file": "images/AutoScenario_3207.png",
+      "telemetry_file": "telemetry/AutoScenario_3207.json",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "camera_world": {
+        "lat": 48.3696285285669,
+        "lon": 11.8593155912059,
+        "alt_m": 586.971565754153,
+        "pitch": 0.0,
+        "bank": 0.0,
+        "heading": 263.8111999999994,
+        "fov": 28.554999183828965
+      },
+      "corners_px": [
+        [
+          981.8809162579116,
+          644.4436379563863,
+          true
+        ],
+        [
+          937.7750291138996,
+          644.478413963332,
+          true
+        ],
+        [
+          941.7824180158676,
+          584.2666293636839,
+          true
+        ],
+        [
+          960.6360179989899,
+          584.291628475674,
+          true
+        ]
+      ],
+      "bbox_px": [
+        937.7750291138996,
+        584.2666293636839,
+        981.8809162579116,
+        644.478413963332
+      ],
+      "bbox_xyxy_px": [
+        937.7750291138996,
+        584.2666293636839,
+        981.8809162579116,
+        644.478413963332
+      ],
+      "fov_axis": "vertical",
+      "geometry_source": "manual_reference_fit_world_corners+human_review_pixel_residual_v1",
+      "capture_geometry": {
+        "source_monitor_index": 1,
+        "source_size_px": [
+          3840,
+          2160
+        ],
+        "output_size_px": [
+          1920,
+          1080
+        ],
+        "resize_scale_xy": [
+          0.5,
+          0.5
+        ],
+        "full_primary_monitor": true
+      },
+      "within_reference_distance_range": true,
+      "reference_distance_range_m": null
+    },
+    {
+      "scenario_id": "AutoScenario_4432",
+      "status": "candidate",
+      "image_file": "images/AutoScenario_4432.png",
+      "telemetry_file": "telemetry/AutoScenario_4432.json",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "camera_world": {
+        "lat": 48.6998477810923,
+        "lon": 9.28136586431,
+        "alt_m": 539.236835638061,
+        "pitch": 0.0,
+        "bank": 0.0,
+        "heading": 256.58859999999794,
+        "fov": 28.554999183828965
+      },
+      "corners_px": [
+        [
+          982.417575741835,
+          650.0542877029436,
+          true
+        ],
+        [
+          948.9530178656973,
+          650.18484983428,
+          true
+        ],
+        [
+          906.0794977119924,
+          593.9044800879616,
+          true
+        ],
+        [
+          922.449064765497,
+          593.9165130580141,
+          true
+        ]
+      ],
+      "bbox_px": [
+        906.0794977119924,
+        593.9044800879616,
+        982.417575741835,
+        650.18484983428
+      ],
+      "bbox_xyxy_px": [
+        906.0794977119924,
+        593.9044800879616,
+        982.417575741835,
+        650.18484983428
+      ],
+      "fov_axis": "vertical",
+      "geometry_source": "manual_reference_fit_world_corners+human_review_pixel_residual_v1",
+      "capture_geometry": {
+        "source_monitor_index": 1,
+        "source_size_px": [
+          3840,
+          2160
+        ],
+        "output_size_px": [
+          1920,
+          1080
+        ],
+        "resize_scale_xy": [
+          0.5,
+          0.5
+        ],
+        "full_primary_monitor": true
+      },
+      "within_reference_distance_range": true,
+      "reference_distance_range_m": null
+    },
+    {
+      "scenario_id": "AutoScenario_3932",
+      "status": "candidate",
+      "image_file": "images/AutoScenario_3932.png",
+      "telemetry_file": "telemetry/AutoScenario_3932.json",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "camera_world": {
+        "lat": 50.5723613167674,
+        "lon": 3.15798997288195,
+        "alt_m": 173.675167688169,
+        "pitch": 0.0,
+        "bank": 0.0,
+        "heading": 259.8664999999996,
+        "fov": 28.554999183828965
+      },
+      "corners_px": [
+        [
+          978.753963721382,
+          630.8475280645812,
+          true
+        ],
+        [
+          946.459051980983,
+          630.8867573164042,
+          true
+        ],
+        [
+          910.8255769580837,
+          589.801911032365,
+          true
+        ],
+        [
+          928.7076107627742,
+          589.8264076487427,
+          true
+        ]
+      ],
+      "bbox_px": [
+        910.8255769580837,
+        589.801911032365,
+        978.753963721382,
+        630.8867573164042
+      ],
+      "bbox_xyxy_px": [
+        910.8255769580837,
+        589.801911032365,
+        978.753963721382,
+        630.8867573164042
+      ],
+      "fov_axis": "vertical",
+      "geometry_source": "manual_reference_fit_world_corners+human_review_pixel_residual_v1",
+      "capture_geometry": {
+        "source_monitor_index": 1,
+        "source_size_px": [
+          3840,
+          2160
+        ],
+        "output_size_px": [
+          1920,
+          1080
+        ],
+        "resize_scale_xy": [
+          0.5,
+          0.5
+        ],
+        "full_primary_monitor": true
+      },
+      "within_reference_distance_range": true,
+      "reference_distance_range_m": null
+    },
+    {
+      "scenario_id": "AutoScenario_1412",
+      "status": "candidate",
+      "image_file": "images/AutoScenario_1412.png",
+      "telemetry_file": "telemetry/AutoScenario_1412.json",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "camera_world": {
+        "lat": 41.8702805025022,
+        "lon": 12.2503085234511,
+        "alt_m": 181.59689412266,
+        "pitch": 0.0,
+        "bank": 0.0,
+        "heading": 160.9390999999999,
+        "fov": 28.554999183828965
+      },
+      "corners_px": [
+        [
+          986.178181212746,
+          671.7855415629015,
+          true
+        ],
+        [
+          942.1259992627388,
+          671.5878217120182,
+          true
+        ],
+        [
+          988.1126347833742,
+          597.0268635009684,
+          true
+        ],
+        [
+          1007.0213010414698,
+          597.0538201662631,
+          true
+        ]
+      ],
+      "bbox_px": [
+        942.1259992627388,
+        597.0268635009684,
+        1007.0213010414698,
+        671.7855415629015
+      ],
+      "bbox_xyxy_px": [
+        942.1259992627388,
+        597.0268635009684,
+        1007.0213010414698,
+        671.7855415629015
+      ],
+      "fov_axis": "vertical",
+      "geometry_source": "manual_reference_fit_world_corners+human_review_pixel_residual_v1",
+      "capture_geometry": {
+        "source_monitor_index": 1,
+        "source_size_px": [
+          3840,
+          2160
+        ],
+        "output_size_px": [
+          1920,
+          1080
+        ],
+        "resize_scale_xy": [
+          0.5,
+          0.5
+        ],
+        "full_primary_monitor": true
+      },
+      "within_reference_distance_range": true,
+      "reference_distance_range_m": null
+    },
+    {
+      "scenario_id": "AutoScenario_4940",
+      "status": "candidate",
+      "image_file": "images/AutoScenario_4940.png",
+      "telemetry_file": "telemetry/AutoScenario_4940.json",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "camera_world": {
+        "lat": 47.499476769466,
+        "lon": 8.50880592098201,
+        "alt_m": 565.669522465207,
+        "pitch": 0.0,
+        "bank": 0.0,
+        "heading": 133.30830000000057,
+        "fov": 28.554999183828965
+      },
+      "corners_px": [
+        [
+          982.0122590486285,
+          646.6706667693563,
+          true
+        ],
+        [
+          937.4340833278222,
+          646.6650139053078,
+          true
+        ],
+        [
+          1026.1114808575114,
+          591.0916291338424,
+          true
+        ],
+        [
+          1047.304484028628,
+          591.1229479878047,
+          true
+        ]
+      ],
+      "bbox_px": [
+        937.4340833278222,
+        591.0916291338424,
+        1047.304484028628,
+        646.6706667693563
+      ],
+      "bbox_xyxy_px": [
+        937.4340833278222,
+        591.0916291338424,
+        1047.304484028628,
+        646.6706667693563
+      ],
+      "fov_axis": "vertical",
+      "geometry_source": "manual_reference_fit_world_corners+human_review_pixel_residual_v1",
+      "capture_geometry": {
+        "source_monitor_index": 1,
+        "source_size_px": [
+          3840,
+          2160
+        ],
+        "output_size_px": [
+          1920,
+          1080
+        ],
+        "resize_scale_xy": [
+          0.5,
+          0.5
+        ],
+        "full_primary_monitor": true
+      },
+      "within_reference_distance_range": true,
+      "reference_distance_range_m": null
+    }
+  ],
+  "runway_geometry_file": "examples/profiles/five_airport_geometry.json",
+  "runway_geometry_sha256": "bdb4525c5b31bbfe41bcb6dcfb4f7558b4363fed1e71aea248d671289fd65ff5",
+  "runway_geometry_status": "CAMERA_API_SCENERY_CALIBRATION_VALIDATED_FOR_BULK_DRAFT_LABELING",
+  "runway_geometry_limitations": [
+    "Five-airport rendered-pavement geometry. Revalidate with your scenery, camera, and simulator version.",
+    "Coordinates follow the usable-pavement annotation policy recorded in this profile."
+  ],
+  "pixel_calibration_file": "examples/profiles/five_airport_pixel_calibration.json",
+  "pixel_calibration_sha256": "f376c8cd85b54f569304df70bfa1c6e6e616a56f13d4248917fb87db1a15039e",
+  "pixel_calibration_status": "PIXEL_RESIDUAL_CALIBRATION_VALIDATED_FOR_BULK_DRAFT_LABELING",
+  "pixel_calibration_limitations": [
+    "Historical example; validate on disjoint captures before bulk use.",
+    "1920x1080 images and the paired geometry file are required. These coefficients are not a universal calibration."
+  ]
+}

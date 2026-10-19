@@ -1,0 +1,56 @@
+# Local environments and Python cache
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated captures, reviews, datasets, and archives
+runs/
+work/
+outputs/
+downloads/
+*.zip
+*.7z
+
+# Native and MSFS build output
+camera_bridge/bin/
+camera_bridge/obj/
+**/_PackageInt/
+**/Packages/
+**/PackagesMetadata/
+*.exe
+*.dll
+*.lib
+*.pdb
+*.bgl
+
+# Private/local configuration
+.env
+.env.*
+.vs/
+*.user
+.DS_Store
+Thumbs.db
+
+# Local credentials and machine-specific settings
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+id_rsa*
+id_ed25519*
+credentials*.json
+secrets*.json
+*.local.json
+*.local.toml
+.aws/
+.azure/
+.ssh/
+
+# Runtime logs, crash dumps, and editor files
+*.log
+*.dmp
+*.stackdump
+.idea/
+.vscode/

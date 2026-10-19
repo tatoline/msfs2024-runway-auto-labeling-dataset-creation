@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software in research, please cite this repository and identify the version or commit used."
+title: "MSFS 2024 Runway Auto-Labelling and Dataset Creation"
+type: software
+license: MIT
+authors:
+  - family-names: "Miroğlu"
+    given-names: "Taylan"
+abstract: "Tools for camera-telemetry-based runway annotation, capture, review, calibration, synthetic rain, and enhanced-light experiments in Microsoft Flight Simulator 2024."
+keywords:
+  - runway annotation
+  - Microsoft Flight Simulator 2024
+  - synthetic datasets
+  - camera telemetry

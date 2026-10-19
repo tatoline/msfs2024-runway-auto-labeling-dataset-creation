@@ -1,0 +1,142 @@
+{
+  "status": "CAMERA_API_SCENERY_CALIBRATION_VALIDATED_FOR_BULK_DRAFT_LABELING",
+  "fov_convention": "vertical",
+  "corner_order": [
+    "threshold_right",
+    "threshold_left",
+    "far_left",
+    "far_right"
+  ],
+  "annotation_policy": "Four corners in order: landing-threshold right, landing-threshold left, opposite-end left, opposite-end right, looking along the landing runway. Use runway edge/threshold intersections. Exclude shoulders, blast pads, taxiways and pavement before a displaced landing threshold. Exclude the image if any required boundary is not confidently visible; never guess.",
+  "airports": {
+    "EDDM": {
+      "runway": "26R",
+      "corners": [
+        [
+          48.36714251629704,
+          11.820958483199888,
+          444.2786278230275
+        ],
+        [
+          48.366609241955224,
+          11.82105224382326,
+          444.2786278230275
+        ],
+        [
+          48.36247880281707,
+          11.76814451824373,
+          448.31477866261014
+        ],
+        [
+          48.363012077543694,
+          11.76805076520111,
+          448.31477866261014
+        ]
+      ]
+    },
+    "EDDS": {
+      "runway": "25",
+      "corners": [
+        [
+          48.69420353163878,
+          9.24365091845766,
+          389.57079572189235
+        ],
+        [
+          48.69381268221931,
+          9.243821226712384,
+          389.57079572189235
+        ],
+        [
+          48.6862796002619,
+          9.204300500135105,
+          392.48850153515775
+        ],
+        [
+          48.68667045019505,
+          9.204130217283023,
+          392.48850153515775
+        ]
+      ]
+    },
+    "LFQQ": {
+      "runway": "26",
+      "corners": [
+        [
+          50.5680550175129,
+          3.117946594780733,
+          49.03372670678336
+        ],
+        [
+          50.56766994261045,
+          3.118082118351367,
+          49.03372670678336
+        ],
+        [
+          50.562691850101096,
+          3.0831567544461222,
+          48.991301669953344
+        ],
+        [
+          50.563076925334514,
+          3.0830212451531906,
+          48.991301669953344
+        ]
+      ]
+    },
+    "LIRF": {
+      "runway": "16L",
+      "corners": [
+        [
+          41.845769162461394,
+          12.261198537463883,
+          2.0124753005107086
+        ],
+        [
+          41.84593056498815,
+          12.261891709703491,
+          2.0124753005107086
+        ],
+        [
+          41.812557095138445,
+          12.275834860396458,
+          3.536966884793843
+        ],
+        [
+          41.81239569167062,
+          12.275142048086309,
+          3.536966884793843
+        ]
+      ]
+    },
+    "LSZH": {
+      "runway": "14",
+      "corners": [
+        [
+          47.48188309660835,
+          8.535808536223385,
+          423.0999123562087
+        ],
+        [
+          47.48224368757528,
+          8.536386733296354,
+          423.0999123562087
+        ],
+        [
+          47.46142594053937,
+          8.5647090012111,
+          424.7737044302847
+        ],
+        [
+          47.46106534825695,
+          8.564131032425735,
+          424.7737044302847
+        ]
+      ]
+    }
+  },
+  "limitations": [
+    "Five-airport rendered-pavement geometry. Revalidate with your scenery, camera, and simulator version.",
+    "Coordinates follow the usable-pavement annotation policy recorded in this profile."
+  ]
+}

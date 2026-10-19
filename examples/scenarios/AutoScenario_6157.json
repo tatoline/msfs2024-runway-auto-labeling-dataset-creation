@@ -1,0 +1,102 @@
+{
+  "schema_version": "odme-msfs-1.0",
+  "images": [
+    {
+      "file_name": "AutoScenario_6157.png",
+      "id": "AutoScenario_6157.png",
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "annotations": [],
+  "categories": [
+    {
+      "id": 1,
+      "name": "runway",
+      "supercategory": "infrastructure"
+    }
+  ],
+  "runway_data": {
+    "name": "Lille",
+    "icao_code": "LFQQ",
+    "runway_name": "26",
+    "runway_width_m": 45.0,
+    "runway_length_m": 2825.0,
+    "runway_heading_true_deg": 260.0,
+    "runway_center": {
+      "latitude": 50.56562583,
+      "longitude": 3.09847201,
+      "altitude_msl_m": 43.89
+    }
+  },
+  "geometry": {
+    "horizontal_datum": "WGS-84",
+    "vertical_datum": "MSL metres",
+    "landing_threshold": {
+      "latitude": 50.56783333,
+      "longitude": 3.11816667,
+      "altitude_msl_m": 40.23
+    },
+    "opposite_threshold": {
+      "latitude": 50.56341501,
+      "longitude": 3.07877919,
+      "altitude_msl_m": 47.55
+    },
+    "aim_point": {
+      "latitude": 50.56759906,
+      "longitude": 3.11607511,
+      "altitude_msl_m": 40.619
+    },
+    "aim_point_inside_threshold_m": 150.0,
+    "landing_course_true_deg": 260.0,
+    "approach_bearing_true_deg": 80.0,
+    "runway_center_to_aim_point_m": 1262.5,
+    "source": "LFQQ runway 08/26 geometry aligned to MSFS validation: length 2825 m and true landing course 260 degrees."
+  },
+  "landing_approach_cone": {
+    "reference_point": "geometry.aim_point",
+    "lateral_angle_left_deg": -4.0,
+    "lateral_angle_right_deg": 4.0,
+    "vertical_min_angle_deg": 2.2,
+    "vertical_max_angle_deg": 3.8,
+    "max_distance_m": 5560.0,
+    "number_of_points": 15,
+    "distribution": {
+      "type": "Normal Distribution",
+      "apply_x": true,
+      "apply_y": true
+    }
+  },
+  "position_of_aircraft": {
+    "latitude": 50.57250757,
+    "longitude": 3.15809502,
+    "altitude_msl_m": 222.361
+  },
+  "distance_aircraft_to_aim_point": {
+    "ground_distance_m": 3017.376,
+    "altitude_difference_m": 181.742
+  },
+  "aircraft_orientation": {
+    "yaw_true_deg": 259.594858,
+    "pitch_deg": -3.446865,
+    "roll_deg": 0.0
+  },
+  "daytime": {
+    "hours": 12,
+    "minutes": 0
+  },
+  "weather": "Broken Clouds",
+  "source_odme_variables": {
+    "OperationMode": "ILSLanding",
+    "DistanceToRunwayKm": "3.0173763623407517",
+    "VerticalAngleDeg": "3.446865341376493",
+    "LateralDeviationDeg": "-0.4375981341848374",
+    "Azimuth": "aligned",
+    "PitchDeg": "0.0",
+    "RollDeg": "0.0",
+    "StartOffsetBeforeSunriseH": "1.0",
+    "EndOffsetAfterSunsetH": "1.0",
+    "TimeStepMinutes": "30",
+    "TimeOfYear": "EarlySpring"
+  }
+}
