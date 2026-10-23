@@ -301,10 +301,12 @@ The guide explains querying facilities, generating XML, preparing short-path per
 
 The full datasets are hosted separately because the images are large. GitHub contains tools, small examples, and documentation.
 
-| Release | Stored images | Training-ready | Excluded |
+| Dataset and download | Stored images | Training-ready | Excluded |
 |---|---:|---:|---:|
-| Original `MSFS_Runway_Dataset_6480_v1` | 6,480 | 6,201 | 279 |
-| Enhanced lights `MSFS_Runway_Dataset_EnhancedLights_2474_v2` | 2,474 | 2,247 | 227 |
+| [Main dataset — default runway lights](https://drive.google.com/drive/folders/1d4ydNrJpQxvQFkwajBlacNzDbCVHPCru) (`MSFS_Runway_Dataset_6480_v1`) | 6,480 | 6,201 | 279 |
+| [Extra dataset — enhanced runway lights](https://drive.google.com/drive/folders/19fP06hFjSw1DKWCZRlh-cjm9oT4TtDeh) (`MSFS_Runway_Dataset_EnhancedLights_2474_v2`) | 2,474 | 2,247 | 227 |
+
+Start with the **main dataset**, which covers Broken Clouds, Rain, and Heavy Rain. The extra dataset covers **Rain and Heavy Rain only**, with custom enhanced runway lights. It is an optional supplement, not an upgrade to or replacement for the main dataset. Keep the two datasets separate when comparing lighting conditions.
 
 See [Dataset downloads and data card](docs/datasets.md) for downloads, label formats, weather counts, annotation sources, and limitations.
 

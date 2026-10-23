@@ -4,23 +4,26 @@ The large research releases are hosted outside GitHub. The repository contains t
 
 ## Downloads
 
-- [Latest project dataset collection — Google Drive](https://drive.google.com/drive/folders/19fP06hFjSw1DKWCZRlh-cjm9oT4TtDeh)
+- **[Main dataset — 6,480 images (Google Drive)](https://drive.google.com/drive/folders/1d4ydNrJpQxvQFkwajBlacNzDbCVHPCru):** `MSFS_Runway_Dataset_6480_v1`, covering Broken Clouds, Rain, and Heavy Rain with the simulator's default runway lights. It contains 6,201 training-ready images and 279 excluded images kept for audit.
+- **[Extra enhanced-light dataset — 2,474 images (Google Drive)](https://drive.google.com/drive/folders/19fP06hFjSw1DKWCZRlh-cjm9oT4TtDeh):** `MSFS_Runway_Dataset_EnhancedLights_2474_v2`, covering **Rain and Heavy Rain only**, captured with custom enhanced runway lights. It contains 2,247 training-ready images and 227 excluded images kept for audit.
 
-Select a release by its folder/version name using the inventory below. The five-image example is enough to try the tools; downloading the full datasets is optional.
+Start with the main dataset. The enhanced-light dataset is an optional supplement for studying runway visibility in Rain and Heavy Rain; it is **not an upgrade to or replacement for the main dataset**. Its `v2` suffix identifies a version of the supplement only. Keep the two datasets separate so their lighting conditions remain clear.
+
+The five-image example is enough to try the tools; downloading the full datasets is optional.
 
 ## Release inventory
 
 | Dataset | Weather | Images | Training-ready | Excluded |
 |---|---|---:|---:|---:|
-| Original 6480 v1 | Broken Clouds | 2,700 | 2,578 | 122 |
-| Original 6480 v1 | Rain | 1,080 | 1,036 | 44 |
-| Original 6480 v1 | Heavy Rain | 2,700 | 2,587 | 113 |
-| **Original total** | | **6,480** | **6,201** | **279** |
-| EnhancedLights 2474 v2 | Rain | 710 | 556 | 154 |
-| EnhancedLights 2474 v2 | Heavy Rain | 1,764 | 1,691 | 73 |
-| **Enhanced total** | | **2,474** | **2,247** | **227** |
+| Main — 6480 v1 | Broken Clouds | 2,700 | 2,578 | 122 |
+| Main — 6480 v1 | Rain | 1,080 | 1,036 | 44 |
+| Main — 6480 v1 | Heavy Rain | 2,700 | 2,587 | 113 |
+| **Main total** | | **6,480** | **6,201** | **279** |
+| Extra — EnhancedLights 2474 v2 | Rain | 710 | 556 | 154 |
+| Extra — EnhancedLights 2474 v2 | Heavy Rain | 1,764 | 1,691 | 73 |
+| **Extra enhanced-light total** | | **2,474** | **2,247** | **227** |
 
-Together, the releases store 8,954 screenshots, with 8,448 training-ready entries and 506 exclusions. Their images occupy approximately 18.69 GB in the project inventory. This is the stored total across two rendering variants, not 8,954 unique scenario definitions.
+Together, the main dataset and supplement store 8,954 screenshots, with 8,448 training-ready entries and 506 exclusions. Their images occupy approximately 18.69 GB in the project inventory. This is the stored total across two rendering variants, not 8,954 unique scenario definitions.
 
 ## Coverage and camera
 

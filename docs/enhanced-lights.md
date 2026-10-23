@@ -6,6 +6,8 @@ Weak stock lights in daytime fog/rain made some geometrically valid images diffi
 
 This is an additive visibility experiment. It does not replace the stock runway, ILS, PAPI, taxiways, or navigation data. It is not a certified photometric copy of real airport fixtures.
 
+The resulting 2,474-image dataset is an **optional Rain and Heavy Rain supplement** to the main 6,480-image dataset. It does not upgrade or replace the main dataset. Both downloads are listed in the [dataset data card](datasets.md#downloads).
+
 ## 1. Read current runway facilities
 
 For an **offline source-generation example**, the small historical snapshot is included:
